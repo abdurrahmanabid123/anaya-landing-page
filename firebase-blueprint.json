@@ -1,0 +1,63 @@
+{
+  "collections": {
+    "config": {
+      "documents": {
+        "settings": {
+          "fields": {
+            "siteName": "string",
+            "siteNameEn": "string",
+            "contactPhone": "string",
+            "contactEmail": "string",
+            "whatsappNumber": "string",
+            "facebookLink": "string",
+            "officeAddress": "string",
+            "footerDesc": "string",
+            "siteLogo": "string",
+            "siteLogoType": "string",
+            "heroTitle": "string",
+            "heroTitlePart1": "string",
+            "heroTitleGradient": "string",
+            "heroTitlePart3": "string",
+            "heroDesc": "string",
+            "heroBadge": "string",
+            "heroSubtitle": "string",
+            "heroRatingText": "string",
+            "heroBgImage": "string",
+            "campBadge": "string",
+            "campTitle": "string",
+            "campSub": "string",
+            "campDesc": "string",
+            "campPrice": "string",
+            "campDiscountText": "string",
+            "campDiscountSub": "string",
+            "campImage": "string",
+            "servicesBadge": "string",
+            "servicesTitle": "string",
+            "servicesDesc": "string",
+            "services": "array",
+            "whyUsBadge": "string",
+            "whyUsTitle": "string",
+            "whyUsDesc": "string",
+            "valueProps": "array",
+            "trustStats": "array",
+            "faqBadge": "string",
+            "faqTitle": "string",
+            "faqDesc": "string",
+            "faqs": "array",
+            "testimonialsBadge": "string",
+            "testimonialsTitle": "string",
+            "testimonialsDesc": "string",
+            "testimonials": "array",
+            "bookingBadge": "string",
+            "bookingTitle": "string",
+            "bookingDesc": "string",
+            "bookingSuccessMsg": "string",
+            "adminUsername": "string",
+            "adminPassword": "string",
+            "heroGradientPreset": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Anaya Tours & Travels",
+  "description": "Anaya Tours & Travels - Premier Travel & Umrah Service Provider in Bangladesh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

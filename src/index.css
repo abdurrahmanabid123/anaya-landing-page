@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Hind Siliguri", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-brand-blue: #1e1b4b;
+  --color-brand-purple: #3b0764;
+  --color-brand-gold: #d4af37;
+  --color-brand-gold-dark: #b59410;
+  --color-brand-gold-light: #fef08a;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html, body {
+  -ms-overflow-style: none !important;  /* IE and Edge */
+  scrollbar-width: none !important;  /* Firefox */
+}
+
+/* Golden Gradient Presets for Hero Text */
+.preset-classic-royal .gold-gradient {
+  background: linear-gradient(135deg, #fef08a 0%, #fbbf24 50%, #f59e0b 100%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+  display: inline-block !important;
+  font-weight: 800;
+}
+
+.preset-shining-gold .gold-gradient {
+  background: linear-gradient(90deg, #fef08a 0%, #facc15 35%, #fef08a 70%, #fbbf24 100%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+  display: inline-block !important;
+  font-weight: 800;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+}
+
+.preset-deep-amber .gold-gradient {
+  background: linear-gradient(135deg, #fbbf24 0%, #d97706 50%, #b45309 100%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+  display: inline-block !important;
+  font-weight: 800;
+}
+
+.preset-rose-gold .gold-gradient {
+  background: linear-gradient(135deg, #fef3c7 0%, #f59e0b 50%, #fef3c7 100%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+  display: inline-block !important;
+  font-weight: 800;
+}
+
+.preset-sunset-glow .gold-gradient {
+  background: linear-gradient(90deg, #ffe066 0%, #f5af19 50%, #e65c00 100%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+  display: inline-block !important;
+  font-weight: 800;
+}
+
